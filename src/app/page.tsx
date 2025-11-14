@@ -18,7 +18,7 @@ export default function Home() {
       <Navbar />
 
       <div className="p-20 text-center flex flex-col items-center">
-        <div className="loader-ring">
+        <div>
           <img className="rounded-full w-96 h-96" src="pfp.png" />
         </div>
 
