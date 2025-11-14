@@ -1,9 +1,16 @@
 import Image from "next/image";
 import localFont from "next/font/local";
+import { Roboto_Condensed } from "next/font/google";
 import Navbar from "@/components/Navbar";
 
 const nothingFont = localFont({
   src: "../fonts/nothing-font-5x7.ttf",
+});
+
+const roboto = Roboto_Condensed({
+  subsets: ["latin"],
+  weight: ["900","400","700"], // choose weights you need
+  display: "swap"
 });
 
 export default function Projects() {
@@ -17,7 +24,7 @@ export default function Projects() {
         {/* Bombsquad Project */}
         <div className="w-full md:w-3/5 bg-zinc-900 border border-zinc-700 rounded-2xl p-10 mt-5 shadow-lg hover:shadow-orange-500/20 transition">
           <h2 className="text-4xl text-cyan-300 mb-4">BombSquad Server Project</h2>
-          <p className="text-xl text-zinc-300 leading-relaxed">
+          <p className={`text-xl text-zinc-300 leading-relaxed ${roboto.className}`}>
             I modded a BombSquad game server using
             Python layers. I optimized player events, reduced lag, added real-time
             logging, matchmaking enhancements, mini-games, and integrated Discord
@@ -32,7 +39,7 @@ export default function Projects() {
         {/* WaveBot Project */}
         <div className="w-full md:w-3/5 bg-zinc-900 border border-zinc-700 rounded-2xl p-10 mt-8 shadow-lg hover:shadow-purple-500/20 transition">
           <h2 className="text-4xl text-purple-300 mb-4">WaveBot — discord.py Bot</h2>
-          <p className="text-xl text-zinc-300 leading-relaxed">
+          <p className={`text-xl text-zinc-300 leading-relaxed ${roboto.className}`}>
             WaveBot is a Discord moderation + utility bot I created to manage a
             community server.  
             <br /><br />
