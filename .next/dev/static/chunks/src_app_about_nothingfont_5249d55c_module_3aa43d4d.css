@@ -1,0 +1,21 @@
+/* [project]/src/app/about/nothingfont_5249d55c.module.css [app-client] (css) */
+@font-face {
+  font-family: nothingFont;
+  src: url("../media/nothing_font_5x7-s.p.2f6b6fe4.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: nothingFont Fallback;
+  src: local(Arial);
+  ascent-override: 80.52%;
+  descent-override: 20.13%;
+  line-gap-override: 0.0%;
+  size-adjust: 110.36%;
+}
+
+.nothingfont_5249d55c-module__30Q9DW__className {
+  font-family: nothingFont, nothingFont Fallback;
+}
+
+/*# sourceMappingURL=src_app_about_nothingfont_5249d55c_module_3aa43d4d.css.map*/
