@@ -18,6 +18,22 @@
     --foreground: #ededed;
   }
 }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+  background: #ff00b3;
+  color: white;
+}
 
 body {
   background: var(--background);
@@ -42,6 +58,22 @@ body {
   border-top-color: #22c55e;
   border-right-color: #22c55e;
   animation: spin 0.4s linear infinite;
+}
+
+.container {display: inline-block;}
+.text {
+  display: inline-block;
+  border-right: 2px solid currentColor;
+  white-space: nowrap;
+  overflow: hidden;
+  animation:
+    typing 2s steps(28, end) forwards,
+    blink-caret .50s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
 }
 
 @keyframes spin {
