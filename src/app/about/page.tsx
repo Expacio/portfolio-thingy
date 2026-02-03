@@ -24,6 +24,9 @@ export default function Projects() {
 
     
       </div>
+      <p className="text-xl text-zinc leading-relaxed">
+        Socials
+      </p>
       <div className="flex gap-8 justify-center items-center py-10">
   <a href="https://www.instagram.com/y7.akshay/" className="transition-transform hover:scale-110">
     <svg 
