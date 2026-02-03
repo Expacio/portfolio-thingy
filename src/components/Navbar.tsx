@@ -10,7 +10,7 @@ export default function Navbar() {
     <nav className="w-full border-b border-zinc-200 dark:border-zinc-800 bg-white dark:bg-black">
       <div className="mx-auto max-w-6xl flex items-center justify-between px-4 py-4">
         <Link href="/" className="text-xl font-semibold tracking-tight">
-          AkShaY.
+          AkShaY
         </Link>
 
         <div className="hidden md:flex items-center gap-8 text-sm font-medium">
