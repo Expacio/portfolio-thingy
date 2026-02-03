@@ -24,7 +24,7 @@ export default function Projects() {
 
     
       </div>
-      <p className="text-xl text-zinc leading-relaxed">
+      <p className="text-3xl justify-center text-zinc leading-relaxed">
         Socials
       </p>
       <div className="flex gap-8 justify-center items-center py-10">
