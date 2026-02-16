@@ -37,6 +37,7 @@ export default function Home() {
     Hey, wassup? I'm <span className="text-orange-500">Akshay!</span>
   </span>
 </p>
+<a className="text-white font-bold">Passionate programmer with interests in backends - still learning!</a>
 
         <div className="flex items-center">
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="text-center size-8"> 
@@ -46,7 +47,7 @@ export default function Home() {
 
   <p className="p-5 text-cyan-300 text-2xl animate-pulse delay-2">Ghaziabad, Uttar Pradesh</p>
 </div>
-<a className="text-5xl mt-5">Skills</a>
+<a className="text-5xl mt-120 font-bold">Skills</a>
 <div className="flex flex-wrap justify-center mt-10 gap-10 max-w-6xl">
   <Card>
   <CardHeader className="h-35 w-100">
