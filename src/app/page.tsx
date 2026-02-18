@@ -24,10 +24,10 @@ const nothingFont = localFont({
 
 export default function Home() {
   return (
-    <div className={`flex flex-col min-h-screen bg-zinc-50 dark:bg-black ${nothingFont.className}`}>
+    <div className={`flex flex-col min-h-screen bg-zinc-50 dark:bg-zinc-800 ${nothingFont.className}`}>
       <Navbar />
 
-      <div className="p-20 text-center flex flex-col items-center">
+      <div className="pt-24 p-20 text-center flex flex-col items-center">
         <div>
           <img className="rounded-full w-96 h-96" src="pfp.png" />
         </div>
@@ -37,7 +37,7 @@ export default function Home() {
     Hey, wassup? I'm <span className="text-orange-500">Akshay!</span>
   </span>
 </p>
-<a className="text-white font-bold">Passionate programmer with interests in backends - still learning!</a>
+<a className="text-white animate-pulse [animation-duration:0.5s] font-bold">Passionate programmer with interests in backends - still learning!</a>
 
         <div className="flex items-center">
   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="text-center size-8"> 
@@ -47,10 +47,10 @@ export default function Home() {
 
   <p className="p-5 text-cyan-300 text-2xl animate-pulse delay-2">Ghaziabad, Uttar Pradesh</p>
 </div>
-<a className="text-5xl mt-120 font-bold">Skills</a>
+<a className="text-5xl mt-120 font-bold animate-pulse [animation-duration:2s">Skills</a>
 <div className="flex flex-wrap justify-center mt-10 gap-10 max-w-6xl">
   <Card>
-  <CardHeader className="h-35 w-100">
+  <CardHeader className="h-40 w-100">
     <CardTitle className="flex flex-col items-center gap-2">
       <svg  xmlns="http://www.w3.org/2000/svg" width="48" height="48"  
 fill="currentColor" viewBox="0 0 24 24" >

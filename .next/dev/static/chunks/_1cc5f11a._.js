@@ -19,11 +19,11 @@ var _s = __turbopack_context__.k.signature();
 function Navbar() {
     _s();
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(15);
-    if ($[0] !== "172cb152c9ac298f0126d5b2c630bd76d1deba64bf6c4463622a1ba855258611") {
+    if ($[0] !== "c537da385e529fd3bd139410adde98409e3b827673ddd89e066ee61c0c7a06f9") {
         for(let $i = 0; $i < 15; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "172cb152c9ac298f0126d5b2c630bd76d1deba64bf6c4463622a1ba855258611";
+        $[0] = "c537da385e529fd3bd139410adde98409e3b827673ddd89e066ee61c0c7a06f9";
     }
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     let t0;
@@ -47,31 +47,31 @@ function Navbar() {
             className: "hidden md:flex items-center gap-8 text-sm font-medium",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                    href: "#skills",
+                    href: "/",
                     className: "hover:opacity-60 transition",
-                    children: "Skills"
+                    children: "Home"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Navbar.tsx",
                     lineNumber: 24,
                     columnNumber: 81
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                    href: "#projects",
+                    href: "/projects",
                     className: "hover:opacity-60 transition",
                     children: "Projects"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Navbar.tsx",
                     lineNumber: 24,
-                    columnNumber: 155
+                    columnNumber: 147
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                    href: "#edu",
+                    href: "/about",
                     className: "hover:opacity-60 transition",
-                    children: "Education"
+                    children: "About"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Navbar.tsx",
                     lineNumber: 24,
-                    columnNumber: 233
+                    columnNumber: 225
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     target: "_blank",
@@ -81,7 +81,7 @@ function Navbar() {
                 }, void 0, false, {
                     fileName: "[project]/src/components/Navbar.tsx",
                     lineNumber: 24,
-                    columnNumber: 307
+                    columnNumber: 297
                 }, this)
             ]
         }, void 0, true, {
@@ -173,31 +173,22 @@ function Navbar() {
             className: "md:hidden flex flex-col gap-4 px-4 pb-4 text-sm font-medium",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                    href: "#skills",
+                    href: "/projects",
                     className: "hover:opacity-60 transition",
-                    children: "Skills"
+                    children: "Projects"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Navbar.tsx",
                     lineNumber: 64,
                     columnNumber: 95
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                    href: "#projects",
+                    href: "/about",
                     className: "hover:opacity-60 transition",
-                    children: "Projects"
+                    children: "About"
                 }, void 0, false, {
                     fileName: "[project]/src/components/Navbar.tsx",
                     lineNumber: 64,
-                    columnNumber: 169
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                    href: "#edu",
-                    className: "hover:opacity-60 transition",
-                    children: "Education"
-                }, void 0, false, {
-                    fileName: "[project]/src/components/Navbar.tsx",
-                    lineNumber: 64,
-                    columnNumber: 247
+                    columnNumber: 173
                 }, this)
             ]
         }, void 0, true, {
@@ -213,7 +204,7 @@ function Navbar() {
     let t8;
     if ($[12] !== t6 || $[13] !== t7) {
         t8 = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-            className: "fixed w-full border-b border-zinc-200 dark:border-zinc-800 bg-white dark:bg-black",
+            className: "fixed top-0 z-50 w-full border-b border-zinc-200 dark:border-zinc-800 bg-white dark:bg-black",
             children: [
                 t6,
                 t7
